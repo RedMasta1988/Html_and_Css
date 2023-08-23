@@ -1,0 +1,153 @@
+.all {
+    width: 198px;
+    height: 277px;
+    background-image: url("../image/modiano-cartine-da-gioco.jpg");
+
+}
+
+
+.card1 {
+
+    background-position: -11.7px -6.5px;
+    margin-top: 775px;
+    margin-left: 685px;
+    border-radius: 32px;
+    transform: rotate3d(11, -56, 6, 55deg)
+}
+
+.card2 {
+
+    background-position: -991.7px -6.5px;
+    margin-top: -276px;
+    margin-left: 723px;
+    border-radius: 32px;
+    transform: rotate3d(11, 56, -6, 55deg)
+}
+
+
+.card4 {
+
+    background-position: -11.7px -6.5px;
+    margin-top: -278px;
+    margin-left: 763px;
+    border-radius: 32px;
+    transform: rotate3d(11, -56, 6, 55deg)
+}
+
+.card5 {
+
+    background-position: -991.7px -6.5px;
+    margin-top: -276px;
+    margin-left: 804px;
+    border-radius: 32px;
+    transform: rotate3d(11, 56, -6, 55deg)
+}
+
+.card6 {
+
+    background-position: -991.7px -6.5px;
+    margin-top: -412px;
+    margin-left: 755px;
+    border-radius: 32px;
+    transform: rotate3d(58, 27, 29, 262deg);
+}
+
+.card7 {
+
+    background-position: -11.7px -6.5px;
+    margin-top: -143px;
+    margin-left: 847px;
+    border-radius: 32px;
+    transform: rotate3d(11, -56, 6, 55deg)
+}
+
+.card8 {
+    background-position: -991.7px -6.5px;
+    margin-top: -276px;
+    margin-left: 888px;
+    border-radius: 32px;
+    transform: rotate3d(11, 56, -6, 55deg)
+}
+
+.card9 {
+    background-position: -11.7px -6.5px;
+    margin-top: -278px;
+    margin-left: 927px;
+    border-radius: 32px;
+    transform: rotate3d(11, -56, 6, 55deg)
+}
+
+.card10 {
+    background-position: -991.7px -6.5px;
+    margin-top: -276px;
+    margin-left: 974px;
+    border-radius: 32px;
+    transform: rotate3d(11, 56, -6, 55deg)
+}
+
+.card11 {
+
+    background-position: -991.7px -6.5px;
+    margin-top: -412px;
+    margin-left: 913px;
+    border-radius: 32px;
+    transform: rotate3d(58, 27, 29, 262deg);
+}
+
+.card12 {
+
+    background-position: -11.7px -6.5px;
+    margin-left: 742px;
+    margin-top: -413px;
+    border-radius: 32px;
+    transform: rotate3d(11, -56, 6, 55deg)
+}
+
+.card13 {
+    background-position: -991.7px -6.5px;
+    margin-top: -276px;
+    margin-left: 784px;
+    border-radius: 32px;
+    transform: rotate3d(11, 56, -6, 55deg)
+}
+
+.card14 {
+    background-position: -11.7px -6.5px;
+    margin-top: -278px;
+    margin-left: 874px;
+    border-radius: 32px;
+    transform: rotate3d(11, -56, 6, 55deg)
+}
+
+.card15 {
+    background-position: -991.7px -6.5px;
+    margin-top: -276px;
+    margin-left: 922px;
+    border-radius: 32px;
+    transform: rotate3d(11, 56, -6, 55deg)
+}
+
+.card16 {
+
+    background-position: -991.7px -6.5px;
+    margin-top: -412px;
+    margin-left: 824px;
+    border-radius: 32px;
+    transform: rotate3d(58, 27, 29, 262deg);
+}
+
+.card17 {
+    background-position: -11.7px -6.5px;
+    margin-top: -412px;
+    margin-left: 806px;
+    border-radius: 32px;
+    transform: rotate3d(11, -56, 6, 55deg)
+}
+
+.card18 {
+    background-position: -991.7px -6.5px;
+    margin-top: -280px;
+    margin-left: 854px;
+    border-radius: 32px;
+    transform: rotate3d(11, 56, -6, 55deg)
+}

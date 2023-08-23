@@ -1,0 +1,40 @@
+.all {
+    width: 140px;
+    height: 190px;
+    background-image: url("../image/cards.png");
+    float: left;
+}
+
+.card1 {
+    background-position: 0.3px -0.5px;
+    border-radius: 15px;
+}
+
+.card2 {
+    background-position: 0.3px -1791.8px;
+    margin-top: 35px;
+    margin-left: -70px;
+    border-radius: 15px;
+}
+
+.card3 {
+    background-position: 282px -1393.9px;
+    margin-top: 70px;
+    margin-left: -70px;
+    border-radius: 15px;
+}
+
+.card4 {
+    background-position: -145px -2190px;
+    margin-top: 105px;
+    margin-left: -70px;
+    border-radius: 15px;
+}
+
+
+.card5 {
+    background-position: 281.8px 188px;
+    margin-top: 140px;
+    margin-left: -70px;
+    border-radius: 15px;
+}

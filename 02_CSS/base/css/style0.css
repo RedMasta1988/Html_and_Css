@@ -1,0 +1,57 @@
+.all {
+    width: 140px;
+    height: 190px;
+    background-image: url("../image/cards.png");
+float: left;
+
+}
+
+.card1 {
+
+    background-position: 0.3px -0.5px;
+    margin-top: 0px;
+    margin-left: 50px;
+    border-radius: 15px;
+    transform: rotateY(10deg);
+    transform: rotateZ(350deg);
+}
+
+.card2 {
+
+    background-position: 0.3px -1791.8px;
+    margin-top: 5px;
+    margin-left: -80px;
+    border-radius: 15px;
+    transform: rotateY(10deg);
+    transform: rotateZ(55deg);
+}
+
+.card3 {
+
+    background-position: 282px -1393.9px;
+    margin-top: 5px;
+    margin-left: -80px;
+    border-radius: 15px;
+    transform: rotateY(10deg);
+}
+
+.card4 {
+
+    background-position: -145px -2190px;
+    margin-top: 5px;
+    margin-left: -80px;
+    border-radius: 15px;
+    transform: rotateY(10deg);
+    transform: rotateZ(-55deg);
+}
+
+
+.card5 {
+
+    background-position: 281.8px 188px;
+    margin-top: 0px;
+    margin-left: -90px;
+    border-radius: 15px;
+    transform: rotateX(100deg);
+    transform: rotateZ(10deg);
+}

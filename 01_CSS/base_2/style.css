@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css2?family=Marck+Script&display=swap);
+
+body {
+    background-color: lightgray;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30%;
+}
+
+article {
+    text-align: left;
+    font-family: 'Marck Script', cursive;
+    text-indent: 1cm;
+    font-size: large;
+}
+
+h1 {
+    font-size: medium;
+}
+
+header {
+    text-align: right;
+}
+
+h3 {
+    font-family: 'Marck Script', cursive;
+    text-indent: 1cm;
+    text-decoration: underline;
+    font-size: large;
+}

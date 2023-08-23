@@ -1,0 +1,29 @@
+.all {
+    background-color: rgb(221, 231, 231);
+}
+
+.tab1 {
+    width: 15em;
+    background-color: rgb(185, 180, 180);
+    float: left;
+    margin-bottom: .2em;
+}
+
+.tab2 {
+    background-color: gray;
+    margin-bottom: .2em;
+    margin-left: 15em;
+    padding: 5px;
+}
+
+img {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    background-color: rgb(209, 198, 198);
+}

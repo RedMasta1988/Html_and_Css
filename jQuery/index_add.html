@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .frm {
+            width: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Проверка пароля</h2>
+    <form action="http://fe.it-academy.by/TestForm.php" id="form" method="post" target="_blank">
+        <fieldset class="frm">
+            <input type="text" id="psw1" name="password1" required />
+            <label for="lgn">* Пароль</label>
+            <br>
+            <input type="text" id="psw2" name="password2" required />
+            <label for="psw">* Повторите пароль</label>
+            <br>
+            <br>
+            <input type="submit" value="Отправить" />
+        </fieldset>
+    </form>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $("#psw1").keyup(function () {
+
+                $(this).css("background-color", "green");
+                $("#psw2").css("background-color", "green");
+            })
+            $("#psw2").on("keyup", function () {
+
+                var value_input1 = $("#psw1").val();
+                var value_input2 = $("#psw2").val();
+
+                if (value_input1 != value_input2) {
+
+                    $("#psw1").css("background-color", "red");
+                    $("#psw2").css("background-color", "red");
+
+                } else {
+
+                    $("#psw1").css("background-color", "green");
+                    $("#psw2").css("background-color", "green");
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>

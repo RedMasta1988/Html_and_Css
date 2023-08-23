@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border-radius: 3px;
+        }
+        
+        div.Menu1 {
+            display: flex;
+            width: 780px;
+            justify-content: space-between;
+        }
+
+        div.Menu1>div {
+            width: 120px;
+            height: 20px;
+            position: relative;
+            display: inline-block;
+            background-color: rgb(202, 202, 202);
+            border: solid black 1px;
+            cursor: pointer;
+            text-align: center;
+            box-shadow: 3px 3px 1px 1px rgba(255,0,0,0.75);
+        }
+
+        div.Menu2 {
+            display: flex;
+            flex-wrap: wrap;
+            opacity: 0;
+            visibility: hidden;
+            transition-property: opacity,visibility;
+            transition-delay: 0.2s;
+            transition-duration: 0.5s;
+        }
+
+
+        div.Menu2>div {
+            background-color: rgb(202, 202, 202);
+            border: solid black 1px;
+            cursor: pointer;
+            width: 120px;
+            height: 20px;
+            display: block;
+            box-shadow: 3px 3px 1px 1px rgba(255,0,0,0.75);
+        }
+
+        div.Menu1>div:hover div.Menu2 {
+            opacity: 1;
+            visibility: visible;
+            z-index: 1; 
+            margin-top: 2px;
+        }
+
+        div.Menu2>div:hover {
+            background-color: gray;
+            color: rgb(202, 202, 202);;
+        }
+
+        div.day:hover {   
+            background-color: gray;
+            color: rgb(202, 202, 202);;
+        }
+
+        @media screen and (max-width: 794px) {
+            div.Menu1 {
+                flex-direction: column;
+                justify-content: space-between;
+                height: 180px;
+            }
+            div.Menu1>div:hover div.Menu2 {
+                display: block; 
+                position: absolute; 
+                margin-left: 120px;
+                margin-top: -19px;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class='Menu1'>
+        <div>
+            <div class="day">Понедельник</div>
+            <div class='Menu2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div>
+            <div class="day">Вторник</div>
+            <div class='Menu2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div>
+            <div class="day">Среда</div>
+            <div class='Menu2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div>
+            <div class="day">Четверг</div>
+            <div class='Menu2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div>
+            <div class="day">Пятница</div>
+            <div class='Menu2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div>
+            <div class="day">Суббота</div>
+            <div class='Menu2'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
